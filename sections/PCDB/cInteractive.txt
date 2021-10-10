@@ -1,0 +1,2 @@
+odr.pl##+js(clickInteractive, .termsagree)
+tumblr.com/privacy/consent##+js(clickInteractive, .btn.yes)

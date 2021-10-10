@@ -1,0 +1,29 @@
+! Polska Baza Ciasteczkowa
+! Polish Cookie Database
+! Version: @version
+! License: MIT
+! Copyright © 2021 Filters Heroes
+!
+!
+! Local storage
+@include localStorage
+!
+!
+! Cookies
+@include bakeCookie
+!
+!
+! Click interactive
+@include cInteractive
+!
+!
+! Click timeout
+@include cTimeout
+!
+!
+! Click complete
+@include cComplete
+!
+!
+! Redirect
+@include redirect
