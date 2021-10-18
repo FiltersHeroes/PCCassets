@@ -1,8 +1,10 @@
 name: Aktualizacja list
 
-on: workflow_dispatch
-#   schedule:
-#     - cron: "0 10,14,18 * * *"
+on:
+  workflow_dispatch: null
+  schedule:
+    - cron: "0 0 * * 0"
+
 jobs:
   Aktualizacja:
     runs-on: ubuntu-latest
@@ -12,4 +14,4 @@ jobs:
       - env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
         run: |
-          VICHS.sh euCDB.txt plCDB.txt
+          ./scripts/build.sh
