@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2021.10.31.0
+! Version: 2021.11.5.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2021 Filters Heroes
 !
@@ -109,6 +109,7 @@ gaana.com##+js(bakeCookie, gdprv1, 1, 365)
 gberardi.com##+js(bakeCookie, cookie_notify, true, 365)
 globalplayer.com##+js(bakeCookie, consentUUID, 382584da-af8a-469e-aedf-11ac420ec96d, 365)
 grouperf.com##+js(bakeCookie, cookie_rgpd, 1, 365)
+grweb.ics.forth.gr##+js(bakeCookie, CookieConsent, {stamp:%27==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:1%2Cutc:1635683664475%2Cregion:%27pl%27}, 365)
 gyakorikerdesek.hu##+js(bakeCookie, cookieok, 1, 365)
 hartfordbusiness.com##+js(bakeCookie, Drupal.visitor.WEBSITECOOKIEALLOWED, YES, 365)
 hetzner.com##+js(bakeCookie, cookies_allowed, 1, 365)
