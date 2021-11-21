@@ -8,5 +8,6 @@ instagram.com##+js(clickTimeout, body[style*="overflow"] div[role="presentation"
 redirect.global.commerce-connector.com/consent##+js(clickTimeout, .cookie-notice > .btn--blue.btn)
 rejestracja.pwik.gliwice.pl##+js(clickTimeout, .bp3-portal .bp3-dialog-footer-actions button[type="button"] ~ button[type="submit"])
 shinden.pl##+js(clickTimeout, div[class^="app_gdpr"] button[class*="details_save"])
+stooq.pl##+js(clickTimeout, .fc-cta-consent[aria-label^="Zgadzam"], privacy)
 sp215.info/s2/ccs.php##+js(clickTimeout, input[value="AKCEPTUJĘ PLIKI COOKIES"])
 /^https?:\/\/consent\.yahoo.com\/[a-z0-9]{2}\/collectConsent/##+js(clickTimeout, .btn[name="agree"])
