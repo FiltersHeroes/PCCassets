@@ -14,3 +14,7 @@
 @include bakeCookie
 !
 !
+! Click timeout
+@include cTimeout
+!
+!
