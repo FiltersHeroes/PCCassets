@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # MAIN_PATH is place, where you find root directory of repository
-MAIN_PATH=$(git -C "$(dirname "$(realpath -s "$1")")" rev-parse --show-toplevel)
+MAIN_PATH=$(git -C "$(dirname "$(realpath -s "$0")")" rev-parse --show-toplevel)
 
 cd "$MAIN_PATH" || exit
 
