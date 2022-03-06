@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2022.2.20.1
+! Version: 2022.3.6.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2022 Filters Heroes
 !
@@ -36,6 +36,8 @@ assocarabinieri.it##+js(bakeCookie, cookieLaw, 1, 365)
 atro-provita.de##+js(bakeCookie, cookieconsent, true, 365)
 bakkt.com##+js(bakeCookie, iceBanner, PrivacyBakkt0101, 365)
 baukobox.de##+js(bakeCookie, bb_dsgvo, true, 365)
+beko.com##+js(bakeCookie, OptanonAlertBoxClosed, 2022-01-01T10:59:57.260Z, 365)
+beko.com##+js(bakeCookie, complianceCookie, on, 365)
 betterhelp.com,regain.us##+js(bakeCookie, gdpr_cookie_consent_given, yes, 365)
 binumi.com##+js(bakeCookie, idcac, 1, 365)
 blockstack.org##+js(bakeCookie, cookiesBanner, ACCEPTED, 365)
