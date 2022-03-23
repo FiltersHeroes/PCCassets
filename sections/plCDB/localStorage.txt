@@ -1,4 +1,1 @@
-click.kaufland.com##+js(addToStorage, cookies, {"consent":"accepted"})
-gry.lotto.pl##+js(addToStorage, rodoConfirmation2, true)
-gry.lotto.pl##+js(addToStorage, rodoConfirmation, true)
 totalcasino.pl##+js(addToStorage, gdpr_popup, true)
