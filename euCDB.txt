@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2022.3.6.0
+! Version: 2022.4.3.1
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2022 Filters Heroes
 !
@@ -237,7 +237,7 @@ zattoo.com##+js(bakeCookie, cookie_policy_agreement, 1, 365)
 !
 !
 ! Click timeout
-allestoringen.be,allestoringen.nl,downdetector.ae,downdetector.at,downdetector.ca,downdetector.ch,downdetector.cl,downdetector.co.il,downdetector.co.nz,downdetector.co.uk,downdetector.co.za,downdetector.com,downdetector.com.ar,downdetector.com.au,downdetector.com.br,downdetector.com.co,downdetector.cz,downdetector.de,downdetector.dk,downdetector.ec,downdetector.es,downdetector.fi,downdetector.fr,downdetector.gr,downdetector.hk,downdetector.hr,downdetector.hu,downdetector.id,downdetector.ie,downdetector.in,downdetector.it,downdetector.jp,downdetector.mx,downdetector.my,downdetector.no,downdetector.pe,downdetector.ph,downdetector.pk,downdetector.pt,downdetector.ro,downdetector.ru,downdetector.se,downdetector.sg,downdetector.sk,downdetector.tw,downdetector.web.tr,xn--allestrungen-9ib.at,xn--allestrungen-9ib.ch,xn--allestrungen-9ib.de##+js(clickTimeout, .evidon-barrier-acceptbutton)
+allestoringen.be,allestoringen.nl,downdetector.ae,downdetector.at,downdetector.ca,downdetector.ch,downdetector.cl,downdetector.co.il,downdetector.co.nz,downdetector.co.uk,downdetector.co.za,downdetector.com,downdetector.com.ar,downdetector.com.au,downdetector.com.br,downdetector.com.co,downdetector.cz,downdetector.de,downdetector.dk,downdetector.ec,downdetector.es,downdetector.fi,downdetector.fr,downdetector.gr,downdetector.hk,downdetector.hr,downdetector.hu,downdetector.id,downdetector.ie,downdetector.in,downdetector.it,downdetector.jp,downdetector.mx,downdetector.my,downdetector.no,downdetector.pe,downdetector.ph,downdetector.pk,downdetector.pt,downdetector.ro,downdetector.ru,downdetector.se,downdetector.sg,downdetector.sk,downdetector.tw,downdetector.web.tr,olx.bg,olx.pt,olx.ro,olx.ua,xn--allestrungen-9ib.at,xn--allestrungen-9ib.ch,xn--allestrungen-9ib.de##+js(clickTimeout, .evidon-barrier-acceptbutton)
 blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.se,blaklader.uk##+js(clickTimeout, #onetrust-accept-btn-handler)
 consent.google.at,consent.google.be,consent.google.by,consent.google.co.uk,consent.google.com,consent.google.cz,consent.google.de,consent.google.dk,consent.google.ee,consent.google.es,consent.google.fi,consent.google.fr,consent.google.gr,consent.google.hr,consent.google.hu,consent.google.ie,consent.google.is,consent.google.it,consent.google.li,consent.google.lt,consent.google.lu,consent.google.lv,consent.google.mc,consent.google.md,consent.google.me,consent.google.mk,consent.google.mt,consent.google.nl,consent.google.no,consent.google.pt,consent.google.ro,consent.google.ru,consent.google.se,consent.google.si,consent.google.sk,consent.youtube.com##+js(clickTimeout, form[action*="consent."] [aria-label][jsname])
 facebook.com,messenger.com##+js(clickTimeout, body > div [data-cookiebanner="accept_button"])
