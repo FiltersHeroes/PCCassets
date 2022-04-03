@@ -1,4 +1,4 @@
-olx.pl,bankier.pl,bethesda.net,blaklader.pl,boomerang-tv.pl,carrefour.pl,claudia.pl,dyskusje24.pl,edziecko.pl,essilor.pl,eurogamer.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,moto.pl,player.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wyborcza.pl##+js(clickTimeout, #onetrust-accept-btn-handler)
+bankier.pl,bethesda.net,blaklader.pl,boomerang-tv.pl,carrefour.pl,claudia.pl,dyskusje24.pl,edziecko.pl,essilor.pl,eurogamer.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,moto.pl,olx.pl,player.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wyborcza.pl##+js(clickTimeout, #onetrust-accept-btn-handler)
 click.kaufland.com/cookieconsent##+js(clickTimeout, button.primary)
 consent.google.com,consent.google.pl,consent.youtube.com##+js(clickTimeout, form[action*="consent."] [aria-label^="Zgadzasz się na wykorzystanie plików cookie"])
 downdetector.pl##+js(clickTimeout, .evidon-barrier-acceptbutton)
