@@ -1,3 +1,7 @@
+amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.*##+js(bakeCookie, isCookieConsentAccepted, true, 365)
+amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.*##+js(bakeCookie, isMarketingCookiesAccepted, false, 365)
+amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.*##+js(bakeCookie, isAnalyticsCookiesAccepted, false, 365)
+superjob.ua,superjob.ru##+js(bakeCookie, cookies_policy_accept, true, 365)
 2a.com,g2a.co##+js(bakeCookie, gdpr_cookie, %5B%5D, 365)
 aceandtate.com##+js(bakeCookie, cookieconsent_status, allow, 365)
 advodan.dk,esea.net##+js(bakeCookie, cookie_consent, 1, 365)
