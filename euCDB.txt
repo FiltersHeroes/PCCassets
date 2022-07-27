@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2022.4.10.1
+! Version: 2022.7.28.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2022 Filters Heroes
 !
@@ -18,6 +18,8 @@ phoenix.de##+js(addToStorage, user_anonymous_profile, {"config":{"tracking":fals
 programmitv.it##+js(addToStorage, privacy_choices_made, OK)
 scoodleplay.be##+js(addToStorage, scoodleAllowCookies, true)
 streamelements.com##+js(addToStorage, StreamElements.gdprNoticeAccepted, true)
+wezine.fr##+js(addToStorage, gbcookies, 1)
+!mackeeper.com##+js(addToStorage, gdprBannerClosed, true)
 !
 !
 ! Cookies
@@ -29,6 +31,9 @@ aimotive.com##+js(bakeCookie, data-protection, true, 365)
 airmates.eu##+js(bakeCookie, privacy-dialog-shown, true, 365)
 aktionsfinder.at##+js(bakeCookie, cksntc, true, 365)
 aktion.mercedes-benz.de##+js(bakeCookie, cookiePolicy, accepted, 365)
+amway-estonia.com,amway-latvia.com,amway-lithuania.com##+js(bakeCookie, isAnalyticsCookiesAccepted, false, 365)
+amway-estonia.com,amway-latvia.com,amway-lithuania.com##+js(bakeCookie, isCookieConsentAccepted, true, 365)
+amway-estonia.com,amway-latvia.com,amway-lithuania.com##+js(bakeCookie, isMarketingCookiesAccepted, false, 365)
 appi.org##+js(bakeCookie, apa_gdpr_accepted, True, 365)
 archief.amsterdam##+js(bakeCookie, verklaring, 1, 365)
 archiveofourown.org##+js(bakeCookie, accepted_tos, 20180523, 365)
@@ -193,6 +198,7 @@ smule.com##+js(bakeCookie, smule_consent, {%22cookieBannerVersionValue%22:2%2C%2
 snapchat.com##+js(bakeCookie, sc-cookies-accepted, true, 365)
 squawka.com##+js(bakeCookie, squawkacookie, accept, 365)
 steigmiller.bio##+js(bakeCookie, fvw_privacy, enabled, 365)
+superjob.ru,superjob.ua##+js(bakeCookie, cookies_policy_accept, true, 365)
 systembolaget.se##+js(bakeCookie, cookieConsent, [%22statistical%22%2C%22profiling%22%2C%22useful%22], 365)
 tarnkappe.info##+js(bakeCookie, CM_cookieConsent, 1, 365)
 technics.com##+js(bakeCookie, cookie_opt, in, 365)
@@ -235,6 +241,9 @@ www2.hm.com##+js(bakeCookie, hm_gdpr_read, true, 365)
 xercise4less.co.uk##+js(bakeCookie, X4LCookiesAccepted, true, 365)
 yourstory.com##+js(bakeCookie, alreadyVisited, true, 365)
 zattoo.com##+js(bakeCookie, cookie_policy_agreement, 1, 365)
+/^https?:\/\/(www\.)?amway\.[\w]{2,15}/##+js(bakeCookie, isAnalyticsCookiesAccepted, false, 366)
+/^https?:\/\/(www\.)?amway\.[\w]{2,15}/##+js(bakeCookie, isCookieConsentAccepted, true, 366)
+/^https?:\/\/(www\.)?amway\.[\w]{2,15}/##+js(bakeCookie, isMarketingCookiesAccepted, false, 366)
 !
 !
 ! Click timeout
