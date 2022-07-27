@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2022.7.28.0
+! Version: 2022.7.28.1
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2022 Filters Heroes
 !
@@ -31,9 +31,9 @@ aimotive.com##+js(bakeCookie, data-protection, true, 365)
 airmates.eu##+js(bakeCookie, privacy-dialog-shown, true, 365)
 aktionsfinder.at##+js(bakeCookie, cksntc, true, 365)
 aktion.mercedes-benz.de##+js(bakeCookie, cookiePolicy, accepted, 365)
-amway-estonia.com,amway-latvia.com,amway-lithuania.com##+js(bakeCookie, isAnalyticsCookiesAccepted, false, 365)
-amway-estonia.com,amway-latvia.com,amway-lithuania.com##+js(bakeCookie, isCookieConsentAccepted, true, 365)
-amway-estonia.com,amway-latvia.com,amway-lithuania.com##+js(bakeCookie, isMarketingCookiesAccepted, false, 365)
+amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.at,amway.be,amway.bg,amway.ch,amway.co.uk,amway.com.tr,amway.cz,amway.de,amway.dk,amway.es,amway.fi,amway.fr,amway.gr,amway.hr,amway.hu,amway.ie,amway.it,amway.nl,amway.no,amway.pt,amway.ro,amway.se,amway.si,amway.sk##+js(bakeCookie, isAnalyticsCookiesAccepted, false, 365)
+amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.at,amway.be,amway.bg,amway.ch,amway.co.uk,amway.com.tr,amway.cz,amway.de,amway.dk,amway.es,amway.fi,amway.fr,amway.gr,amway.hr,amway.hu,amway.ie,amway.it,amway.nl,amway.no,amway.pt,amway.ro,amway.se,amway.si,amway.sk##+js(bakeCookie, isCookieConsentAccepted, true, 365)
+amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.at,amway.be,amway.bg,amway.ch,amway.co.uk,amway.com.tr,amway.cz,amway.de,amway.dk,amway.es,amway.fi,amway.fr,amway.gr,amway.hr,amway.hu,amway.ie,amway.it,amway.nl,amway.no,amway.pt,amway.ro,amway.se,amway.si,amway.sk##+js(bakeCookie, isMarketingCookiesAccepted, false, 365)
 appi.org##+js(bakeCookie, apa_gdpr_accepted, True, 365)
 archief.amsterdam##+js(bakeCookie, verklaring, 1, 365)
 archiveofourown.org##+js(bakeCookie, accepted_tos, 20180523, 365)
@@ -241,9 +241,6 @@ www2.hm.com##+js(bakeCookie, hm_gdpr_read, true, 365)
 xercise4less.co.uk##+js(bakeCookie, X4LCookiesAccepted, true, 365)
 yourstory.com##+js(bakeCookie, alreadyVisited, true, 365)
 zattoo.com##+js(bakeCookie, cookie_policy_agreement, 1, 365)
-/^https?:\/\/(www\.)?amway\.[\w]{2,15}/##+js(bakeCookie, isAnalyticsCookiesAccepted, false, 366)
-/^https?:\/\/(www\.)?amway\.[\w]{2,15}/##+js(bakeCookie, isCookieConsentAccepted, true, 366)
-/^https?:\/\/(www\.)?amway\.[\w]{2,15}/##+js(bakeCookie, isMarketingCookiesAccepted, false, 366)
 !
 !
 ! Click timeout
