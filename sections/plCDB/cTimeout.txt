@@ -1,7 +1,6 @@
 bankier.pl,bethesda.net,blaklader.pl,boomerang-tv.pl,carrefour.pl,claudia.pl,dyskusje24.pl,edziecko.pl,essilor.pl,eurogamer.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,moto.pl,olx.pl,player.pl,sport.pl,tokfm.pl,toteraz.pl,tvn.pl,tvn24.pl,ugotuj.to,wyborcza.pl##+js(clickTimeout, #onetrust-accept-btn-handler)
 click.kaufland.com/cookieconsent##+js(clickTimeout, button.primary)
 consent.google.com,consent.google.pl,consent.youtube.com##+js(clickTimeout, form[action*="consent."] button[aria-label^="Zaakceptuj"])
-www.google.com,www.google.pl##+js(clickTimeout, [aria-label="Zanim przejdziesz do wyszukiwarki Google"] button + button div)
 downdetector.pl##+js(clickTimeout, .evidon-barrier-acceptbutton)
 facebook.com##+js(clickTimeout, div[aria-label="Zezwól na korzystanie z niezbędnych i opcjonalnych plików cookie"] span)
 facebook.com,messenger.com##+js(clickTimeout, body > div div[aria-label="Zezwól na wszystkie pliki cookie"][role="button"])
@@ -14,4 +13,5 @@ rejestracja.pwik.gliwice.pl##+js(clickTimeout, .bp3-portal .bp3-dialog-footer-ac
 shinden.pl##+js(clickTimeout, div[class^="app_gdpr"] button[class*="details_save"])
 sp215.info/s2/ccs.php##+js(clickTimeout, input[value="AKCEPTUJĘ PLIKI COOKIES"])
 stooq.pl##+js(clickTimeout, .fc-cta-consent[aria-label^="Zgadzam"], privacy)
+www.google.com,www.google.pl##+js(clickTimeout, [aria-label="Zanim przejdziesz do wyszukiwarki Google"] button + button div)
 /^https?:\/\/consent\.yahoo.com\/[a-z0-9]{2}\/collectConsent/##+js(clickTimeout, .btn[name="agree"])
