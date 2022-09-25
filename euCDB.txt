@@ -1,12 +1,13 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2022.8.14.0
+! Version: 2022.9.25.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2022 Filters Heroes
 !
 !
 ! Local storage
+!mackeeper.com##+js(addToStorage, gdprBannerClosed, true)
 eqmac.app##+js(addToStorage, EQM_PRIVACY_CONSENT_CHOSEN, true)
 figuya.com##+js(addToStorage, cookie-dialog, closed)
 krant.ad.nl,krant.demorgen.be,krant.dg.nl,krant.ed.nl,krant.parool.nl,krant.trouw.nl,krant.volkskrant.nl##+js(addToStorage, vl_disable_tracking, true)
@@ -19,7 +20,6 @@ programmitv.it##+js(addToStorage, privacy_choices_made, OK)
 scoodleplay.be##+js(addToStorage, scoodleAllowCookies, true)
 streamelements.com##+js(addToStorage, StreamElements.gdprNoticeAccepted, true)
 wezine.fr##+js(addToStorage, gbcookies, 1)
-!mackeeper.com##+js(addToStorage, gdprBannerClosed, true)
 !
 !
 ! Cookies
@@ -29,8 +29,8 @@ advodan.dk,esea.net##+js(bakeCookie, cookie_consent, 1, 365)
 agroneo.com##+js(bakeCookie, consent, yes, 365)
 aimotive.com##+js(bakeCookie, data-protection, true, 365)
 airmates.eu##+js(bakeCookie, privacy-dialog-shown, true, 365)
-aktionsfinder.at##+js(bakeCookie, cksntc, true, 365)
 aktion.mercedes-benz.de##+js(bakeCookie, cookiePolicy, accepted, 365)
+aktionsfinder.at##+js(bakeCookie, cksntc, true, 365)
 amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.at,amway.be,amway.bg,amway.ch,amway.co.uk,amway.com.tr,amway.cz,amway.de,amway.dk,amway.es,amway.fi,amway.fr,amway.gr,amway.hr,amway.hu,amway.ie,amway.it,amway.nl,amway.no,amway.pt,amway.ro,amway.se,amway.si,amway.sk##+js(bakeCookie, isAnalyticsCookiesAccepted, false, 365)
 amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.at,amway.be,amway.bg,amway.ch,amway.co.uk,amway.com.tr,amway.cz,amway.de,amway.dk,amway.es,amway.fi,amway.fr,amway.gr,amway.hr,amway.hu,amway.ie,amway.it,amway.nl,amway.no,amway.pt,amway.ro,amway.se,amway.si,amway.sk##+js(bakeCookie, isCookieConsentAccepted, true, 365)
 amway-estonia.com,amway-latvia.com,amway-lithuania.com,amway.at,amway.be,amway.bg,amway.ch,amway.co.uk,amway.com.tr,amway.cz,amway.de,amway.dk,amway.es,amway.fi,amway.fr,amway.gr,amway.hr,amway.hu,amway.ie,amway.it,amway.nl,amway.no,amway.pt,amway.ro,amway.se,amway.si,amway.sk##+js(bakeCookie, isMarketingCookiesAccepted, false, 365)
@@ -41,8 +41,8 @@ assocarabinieri.it##+js(bakeCookie, cookieLaw, 1, 365)
 atro-provita.de##+js(bakeCookie, cookieconsent, true, 365)
 bakkt.com##+js(bakeCookie, iceBanner, PrivacyBakkt0101, 365)
 baukobox.de##+js(bakeCookie, bb_dsgvo, true, 365)
-beko.com##+js(bakeCookie, OptanonAlertBoxClosed, 2022-01-01T10:59:57.260Z, 365)
 beko.com##+js(bakeCookie, complianceCookie, on, 365)
+beko.com##+js(bakeCookie, OptanonAlertBoxClosed, 2022-01-01T10:59:57.260Z, 365)
 betterhelp.com,regain.us##+js(bakeCookie, gdpr_cookie_consent_given, yes, 365)
 binumi.com##+js(bakeCookie, idcac, 1, 365)
 blockstack.org##+js(bakeCookie, cookiesBanner, ACCEPTED, 365)
@@ -84,6 +84,8 @@ dofsimulator.net##+js(bakeCookie, cookieSettings, cookie, 365)
 dunhamssports.com##+js(bakeCookie, dw_cookies_accepted, 0, 365)
 duolingo.com##+js(bakeCookie, gdpr_cookie, true, 365)
 dwell.com##+js(bakeCookie, gdpr, 1, 365)
+e-fundresearch.com##+js(bakeCookie, cookieinfo, {%22functional%22:true}, 365)
+e-syntagografisi.gr##+js(bakeCookie, cookieconsent_status, 1, 365)
 elkem.com##+js(bakeCookie, ConsentClosed, 1, 365)
 elkjop.no,hummel.co.uk,hummel.dk,hummel.fr,hummel.net,hummelsport.de,hummelsport.se##+js(bakeCookie, CookieInformationConsent, 1, 365)
 elopage.com,pruefungshelden.de##+js(bakeCookie, p_consent_accepted_shop, 1%2C2, 365)
@@ -100,8 +102,6 @@ eurocupbasketball.com,euroleague.net##+js(bakeCookie, cookieBanner, true, 365)
 eurocupbasketball.com,euroleague.net##+js(bakeCookie, modalNotSeenEV, 1, 365)
 evangelisch.de##+js(bakeCookie, bigfoot_cookie-consent, true, 365)
 ezys.lt##+js(bakeCookie, cookie-consent, 3, 365)
-e-fundresearch.com##+js(bakeCookie, cookieinfo, {%22functional%22:true}, 365)
-e-syntagografisi.gr##+js(bakeCookie, cookieconsent_status, 1, 365)
 favre-leuba.com##+js(bakeCookie, seenCookieBar, true, 365)
 fiaworldrallycross.com##+js(bakeCookie, privacyupdate, 1, 365)
 fightful.com##+js(bakeCookie, gdpr_popup_hide, checked, 365)
@@ -155,8 +155,8 @@ meteoblue.com##+js(bakeCookie, privacysettings, ["required"], 365)
 modelle-hamburg.de##+js(bakeCookie, privacypolicy1, 1, 365)
 mondo-tech.it##+js(bakeCookie, accettacookie, ok, 365)
 mubi.com##+js(bakeCookie, mubi-cookie-consent, allow, 365)
-mymoria.de##+js(bakeCookie, gatsbyConsentMandatory, true, 365)
 my.dhlparcel.nl##+js(bakeCookie, cookie-agreed, 2, 365)
+mymoria.de##+js(bakeCookie, gatsbyConsentMandatory, true, 365)
 nearest.place,pee.place,postboxmap.com##+js(bakeCookie, gdprconsent, 1, 365)
 netztest.at##+js(bakeCookie, RMBTTermsV6, true, 365)
 neuefische.de##+js(bakeCookie, cookiesAccepted, true, 365)
@@ -183,8 +183,8 @@ proximus.be,sap.com,tmz.com,wunderground.com##+js(bakeCookie, notice_gdpr_prefs,
 quandoo.at##+js(bakeCookie, quandoo_cookie_policy, accepted, 365)
 quick.be##+js(bakeCookie, cookie-policy-accepted, 1, 365)
 quick.be##+js(bakeCookie, cookie-policy-version, 2, 365)
-radiodienste.de##+js(bakeCookie, cookieinfo, 1, 365)
 radio.juke.nl##+js(bakeCookie, talpa-radio_cookie-consent, true, 365)
+radiodienste.de##+js(bakeCookie, cookieinfo, 1, 365)
 region-villach.at##+js(bakeCookie, app_accept_cookies, true, 365)
 regus.com##+js(bakeCookie, cpa, accepted, 365)
 reimageplus.com,xn---43-9cdulgg0aog6b.xn--p1ai##+js(bakeCookie, cookie_accepted, 1, 365)
@@ -247,6 +247,7 @@ zattoo.com##+js(bakeCookie, cookie_policy_agreement, 1, 365)
 !
 !
 ! Click timeout
+!consentv2.sport1.de##+js(clickTimeout, .qc-cmp2-footer button + button, euconsent-v2)
 allestoringen.be,allestoringen.nl,downdetector.ae,downdetector.at,downdetector.ca,downdetector.ch,downdetector.cl,downdetector.co.il,downdetector.co.nz,downdetector.co.uk,downdetector.co.za,downdetector.com,downdetector.com.ar,downdetector.com.au,downdetector.com.br,downdetector.com.co,downdetector.cz,downdetector.de,downdetector.dk,downdetector.ec,downdetector.es,downdetector.fi,downdetector.fr,downdetector.gr,downdetector.hk,downdetector.hr,downdetector.hu,downdetector.id,downdetector.ie,downdetector.in,downdetector.it,downdetector.jp,downdetector.mx,downdetector.my,downdetector.no,downdetector.pe,downdetector.ph,downdetector.pk,downdetector.pt,downdetector.ro,downdetector.ru,downdetector.se,downdetector.sg,downdetector.sk,downdetector.tw,downdetector.web.tr,olx.bg,olx.pt,olx.ro,olx.ua,xn--allestrungen-9ib.at,xn--allestrungen-9ib.ch,xn--allestrungen-9ib.de##+js(clickTimeout, .evidon-barrier-acceptbutton)
 antena3.com,atlantico.fr,automoto.it,bfmtv.com,bloomberg.com,boursorama.com,businessinsider.de,canarias7.es,cdn.privacy-mgmt.com,chefkoch.de,cmp-sp.reisereporter.de,cmp.ad.nl,cmp.dpgmedia.be,cmp.fitforfun.de,cmp.hln.be,cmp.tag24.de,cmp.utopia.de,cnews.fr,consent-cdn.sueddeutsche.de,consent-cdn.zeit.de,consent.faz.net,corriere.it,dailymotion.com,dn.se,dna.fr,elcorreo.com,europe1.fr,express.co.uk,fandom.com,france24.com,franceculture.fr,gamestar.de,gazzetta.it,huffingtonpost.fr,ideal.es,ign.com,index.hr,indy100.com,infoworld.com,ingame.de,jeanmarcmorandini.com,jeuxvideo.com,jn.pt,lasprovincias.es,ledauphine.com,lemonde.fr,lesoir.be,marianne.net,moto.it,movieplayer.it,myprivacy.dpgmedia.be,nouvelobs.com,ondacero.es,ouest-france.fr,ouvelobs.com,plus.gmx.fr,podcasts.podinstall.com,privacy.madame.de,programme-television.org,public.fr,publicsenat.fr,purepeople.com,rtl.be,seguro.elespanol.com,sourcepoint.avclub.com,sourcepoint.deadspin.com,sourcepoint.jezebel.com,sourcepoint.lifehacker.com,sourcepoint.n-tv.de,sourcepoint.theinventory.com,sourcepoint.theonion.com,sourcepoint.theroot.com,sourcepoint.thetakeout.com,sourcepoint.wetter.de,sport.de,sport1.de,stimme.de,sudinfo.be,tomshw.it,travlerz.com,tumblr.com,tviplayer.iol.pt,tz.de,vi.nl,vip.de,ze.tt##+js(clickTimeout, .qc-cmp2-footer button + button, euconsent-v2)
 blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.se,blaklader.uk##+js(clickTimeout, #onetrust-accept-btn-handler)
@@ -256,6 +257,5 @@ fandom.com##+js(clickTimeout, [data-tracking-opt-in-accept="true"], euconsent-v2
 iltalehti.fi##+js(clickTimeout, #almacmp-modalConfirmBtn)
 stooq.com##+js(clickTimeout, .fc-dialog .fc-footer-buttons button.fc-cta-consent, privacy)
 wetransfer.com##+js(clickTimeout, .welcome--cookies.welcome .welcome__button--accept, __wtcm)
-!consentv2.sport1.de##+js(clickTimeout, .qc-cmp2-footer button + button, euconsent-v2)
 !
 !
