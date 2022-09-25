@@ -1,4 +1,4 @@
-f1racing.pl##+js(redirect, x-set-cookie, true, x-id-cookie-yes)
 /^https?:\/\/(www\.)?biblioteka\.rawicz\.pl\/$/##+js(redirect, indexa.html, false)
 /^https?:\/\/(www\.)?edytor-serwis\.com\.pl\/$/##+js(redirect, index2.html, false)
 /^https?:\/\/(www\.)?tester\.net\.pl\/$/##+js(redirect, ?pl_witamy,1, false)
+f1racing.pl##+js(redirect, x-set-cookie, true, x-id-cookie-yes)
