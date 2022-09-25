@@ -61,10 +61,10 @@ if plCDB_mod:
             else:
                 git.Repo.clone_from("git@github.com:FiltersHeroes/PolishCookieConsent.git", pj(os.getcwd(), "PolishCookieConsent"))
 
-    os.remove(pn(os.getcwd()+"PolishCookieConsent/src/cookieBase/PCB.txt"))
-    shutil.copy(pn(os.getcwd()+"PCCassets/plCDB.txt"), pn(os.getcwd()+"PolishCookieConsent/src/cookieBase/PCB.txt"))
+    os.remove(pn(os.getcwd()+"/PolishCookieConsent/src/cookieBase/PCB.txt"))
+    shutil.copy(pn(os.getcwd()+"/PCCassets/plCDB.txt"), pn(os.getcwd()+"/PolishCookieConsent/src/cookieBase/PCB.txt"))
 
-    os.chdir(pn(os.getcwd()+"PolishCookieConsent"))
+    os.chdir(pn(os.getcwd()+"/PolishCookieConsent"))
 
     git_repo = git.Repo(pn(os.getcwd()), search_parent_directories=True)
 
@@ -89,6 +89,6 @@ if plCDB_mod:
             if hasattr(conf(), 'CIemail'):
                 cw.set_value("user", "email", conf().CIemail).release()
 
-    git_repo.index.add(pn(os.getcwd()+"src/cookieBase/PCB.txt"))
+    git_repo.index.add(pn(os.getcwd()+"/src/cookieBase/PCB.txt"))
     git_repo.index.commit("Update Polish Cookie Database to latest version")
-    SFLB.push([pn(os.getcwd()+"src/cookieBase/PCB.txt")])
+    SFLB.push([pn(os.getcwd()+"/src/cookieBase/PCB.txt")])
