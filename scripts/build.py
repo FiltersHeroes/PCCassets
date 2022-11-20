@@ -49,7 +49,7 @@ SFLB.push([pj(main_path, "euCDB.txt")])
 plCDB_mod = filecmp.cmp(pn(pj(main_path, "plCDB.txt")), pn(pj(backup_path, "plCDB.txt")))
 
 
-if plCDB_mod:
+if plCDB_mod is False:
     os.chdir(pn(main_path+"/.."))
 
     if "CI" in os.environ:
