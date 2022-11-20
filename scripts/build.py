@@ -91,4 +91,7 @@ if plCDB_mod is False:
 
     git_repo.index.add(pn(os.getcwd()+"/src/cookieBase/PCB.txt"))
     git_repo.index.commit("Update Polish Cookie Database to latest version")
+
+    shutil.copy(config_path, pn(os.getcwd()+"/.SFLB.config"))
     SFLB.push([pn(os.getcwd()+"/src/cookieBase/PCB.txt")])
+    os.remove(pn(os.getcwd()+"/.SFLB.config"))
