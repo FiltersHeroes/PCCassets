@@ -48,19 +48,19 @@ SFLB.push([pj(main_path, "euCDB.txt")])
 
 plCDB_mod = filecmp.cmp(pn(pj(main_path, "plCDB.txt")), pn(pj(backup_path, "plCDB.txt")))
 
-
 if plCDB_mod is False:
-    os.chdir(pn(main_path+"/.."))
+    print("Copying list to Polish Cookie Consent repo...")
 
     if "CI" in os.environ:
         git_repo = git.Repo(os.path.dirname(os.path.realpath(config_path)), search_parent_directories=True)
         with git_repo.config_reader() as cr:
             url = cr.get_value('remote "origin"', 'url')
             if url.startswith('http'):
-                git.Repo.clone_from("https://github.com/FiltersHeroes/PolishCookieConsent.git", pj(os.getcwd(), "PolishCookieConsent"))
+                git.Repo.clone_from("https://github.com/FiltersHeroes/PolishCookieConsent.git", pn(main_path+"/../PolishCookieConsent"))
             else:
-                git.Repo.clone_from("git@github.com:FiltersHeroes/PolishCookieConsent.git", pj(os.getcwd(), "PolishCookieConsent"))
+                git.Repo.clone_from("git@github.com:FiltersHeroes/PolishCookieConsent.git", pn(main_path+"/../PolishCookieConsent"))
 
+    os.chdir(pn(main_path+"/.."))
     os.remove(pn(os.getcwd()+"/PolishCookieConsent/src/cookieBase/PCB.txt"))
     shutil.copy(pn(os.getcwd()+"/PCCassets/plCDB.txt"), pn(os.getcwd()+"/PolishCookieConsent/src/cookieBase/PCB.txt"))
 
