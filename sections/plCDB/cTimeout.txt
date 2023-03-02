@@ -5,7 +5,6 @@ bankier.pl,bethesda.net,blaklader.pl,boomerang-tv.pl,carrefour.pl,claudia.pl,dys
 consent.google.com,consent.google.pl,consent.youtube.com##+js(clickTimeout, form[action*="consent."] button[aria-label^="Zaakceptuj"])
 downdetector.pl##+js(clickTimeout, .evidon-barrier-acceptbutton)
 facebook.com,instagram.com##+js(clickTimeout, div[aria-label="Zezwól tylko na niezbędne pliki cookie"] span)
-
 facebook.com,messenger.com##+js(clickTimeout, body > div div[aria-label="Zezwól tylko na niezbędne pliki cookie"][role="button"])
 fandom.com##+js(clickTimeout, [data-tracking-opt-in-accept="true"], euconsent-v2)
 fandom.com,fly4free.pl,gry.pl,wpolityce.pl##+js(clickTimeout, .qc-cmp2-footer button + button, euconsent-v2)
