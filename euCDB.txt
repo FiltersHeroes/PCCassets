@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2023.5.14.0
+! Version: 2023.6.4.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2023 Filters Heroes
 !
@@ -256,7 +256,7 @@ allestoringen.be,allestoringen.nl,downdetector.ae,downdetector.at,downdetector.c
 antena3.com,atlantico.fr,automoto.it,bfmtv.com,bloomberg.com,boursorama.com,businessinsider.de,canarias7.es,cdn.privacy-mgmt.com,chefkoch.de,cmp-sp.reisereporter.de,cmp.ad.nl,cmp.dpgmedia.be,cmp.fitforfun.de,cmp.hln.be,cmp.tag24.de,cmp.utopia.de,cnews.fr,consent-cdn.sueddeutsche.de,consent-cdn.zeit.de,consent.faz.net,corriere.it,dailymotion.com,dn.se,dna.fr,elcorreo.com,europe1.fr,express.co.uk,fandom.com,france24.com,franceculture.fr,gamestar.de,gazzetta.it,huffingtonpost.fr,ideal.es,ign.com,index.hr,indy100.com,infoworld.com,ingame.de,jeanmarcmorandini.com,jeuxvideo.com,jn.pt,lasprovincias.es,ledauphine.com,lemonde.fr,lesoir.be,marianne.net,moto.it,movieplayer.it,myprivacy.dpgmedia.be,nouvelobs.com,ondacero.es,ouest-france.fr,ouvelobs.com,plus.gmx.fr,podcasts.podinstall.com,privacy.madame.de,programme-television.org,public.fr,publicsenat.fr,purepeople.com,rtl.be,seguro.elespanol.com,sourcepoint.avclub.com,sourcepoint.deadspin.com,sourcepoint.jezebel.com,sourcepoint.lifehacker.com,sourcepoint.n-tv.de,sourcepoint.theinventory.com,sourcepoint.theonion.com,sourcepoint.theroot.com,sourcepoint.thetakeout.com,sourcepoint.wetter.de,sport.de,sport1.de,stimme.de,sudinfo.be,tomshw.it,travlerz.com,tumblr.com,tviplayer.iol.pt,tz.de,vi.nl,vip.de,ze.tt##+js(clickTimeout, .qc-cmp2-footer button + button, euconsent-v2)
 blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.se,blaklader.uk,ikea.com##+js(clickTimeout, #onetrust-accept-btn-handler)
 consent.google.at,consent.google.be,consent.google.by,consent.google.co.uk,consent.google.com,consent.google.cz,consent.google.de,consent.google.dk,consent.google.ee,consent.google.es,consent.google.fi,consent.google.fr,consent.google.gr,consent.google.hr,consent.google.hu,consent.google.ie,consent.google.is,consent.google.it,consent.google.li,consent.google.lt,consent.google.lu,consent.google.lv,consent.google.mc,consent.google.md,consent.google.me,consent.google.mk,consent.google.mt,consent.google.nl,consent.google.no,consent.google.pt,consent.google.ro,consent.google.ru,consent.google.se,consent.google.si,consent.google.sk,consent.youtube.com##+js(clickTimeout, form[action*="consent."] [aria-label][jsname])
-facebook.com,messenger.com##+js(clickTimeout, body > div [data-cookiebanner="accept_button"])
+facebook.com,instagram.com,messenger.com##+js(clickTimeout, body > div [data-cookiebanner="accept_button"])
 fandom.com##+js(clickTimeout, [data-tracking-opt-in-accept="true"], euconsent-v2)
 iltalehti.fi##+js(clickTimeout, #almacmp-modalConfirmBtn)
 stooq.com##+js(clickTimeout, .fc-dialog .fc-footer-buttons button.fc-cta-consent, privacy)
