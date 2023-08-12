@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2023.6.28.1
+! Version: 2023.8.12.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2023 Filters Heroes
 !
@@ -261,6 +261,7 @@ facebook.com,instagram.com,messenger.com##+js(clickTimeout, body > div [data-coo
 fandom.com##+js(clickTimeout, [data-tracking-opt-in-accept="true"], euconsent-v2)
 iltalehti.fi##+js(clickTimeout, #almacmp-modalConfirmBtn)
 stooq.com##+js(clickTimeout, .fc-dialog .fc-footer-buttons button.fc-cta-consent, privacy)
+vpolshchi.pl##+js(clickComplete, button, 300, ПЕРЕХОДЖУ)
 wetransfer.com##+js(clickTimeout, .welcome--cookies.welcome .welcome__button--accept, __wtcm)
 !
 !
