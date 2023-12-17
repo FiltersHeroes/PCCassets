@@ -11,6 +11,7 @@
 !
 ! Cookies
 @include bakeCookie
+@include bakeCookie-compatible
 !
 !
 ! Click interactive
