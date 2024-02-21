@@ -1,4 +1,3 @@
-!mackeeper.com##+js(addToStorage, gdprBannerClosed, true)
 eqmac.app##+js(addToStorage, EQM_PRIVACY_CONSENT_CHOSEN, true)
 figuya.com##+js(addToStorage, cookie-dialog, closed)
 krant.ad.nl,krant.demorgen.be,krant.dg.nl,krant.ed.nl,krant.parool.nl,krant.trouw.nl,krant.volkskrant.nl##+js(addToStorage, vl_disable_tracking, true)
