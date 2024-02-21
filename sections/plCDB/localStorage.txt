@@ -1,1 +1,2 @@
-!
+przystanki.bialystok.pl##+js(addToStorage, cookie-accepted, 1)
+app.pitbot.pl##+js(addToStorage, cookieConsent true)
