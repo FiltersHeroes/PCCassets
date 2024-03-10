@@ -1,2 +1,3 @@
 app.pitbot.pl##+js(addToStorage, cookieConsent true)
 przystanki.bialystok.pl##+js(addToStorage, cookie-accepted, 1)
+hbomax.com##+js(addToStorage, consentChoices, {"allowFunctionalCookies":true,"allowPerformanceCookies":true,"allowTargetingCookies":true,"timestamp":"2024-03-10T16:48:57.101Z"})
