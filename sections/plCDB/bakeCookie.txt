@@ -8,6 +8,5 @@ mini.com.pl##+js(bakeCookie, cc_consentCookie, {"mini_poland_family":{"consentMe
 tumblr.com##+js(bakeCookie, euconsent-v2, CPuErAAPuErAAECABAPLDLCgAPLAAHLAAKiQJhNX_H__bX9v8f7_6ft0eY1f9_j77uQxBhfJs-4F3LvW-JwX_2E7NF36tq4KmR4Eu3LBIUNtHNnUTVmxaokVrzHsak2cpTNKJ-BkkHMRe2dYCF5vm5tjeQKZ5_p_d3f52T_9_dv-39z33913v3ddf-_1-Pjde5_9H_v_fRfb-_If9_7-_8v8_9_rk2_eT1_________-_____wTBAJMNS4gC7MocCbQMIoUQIwrCAigUAABAMDRAQAODAp0RgE-sIkAKEUARgRAhwBRkQCAAASAJCIAJAiwQAAACAQAAgAQCIQAMDAIKACwEAgABAdAxRCgAECQgSIiIhTAgKgSCAlsqEEoLpDTCAKssAKARGwUACIJARWAAICwcAwRICViwQJcQbRAAMACAUSoVqKT00BCgmbLAAAAA, 365, .tumblr.com)
 tumblr.com##+js(bakeCookie, euconsent-v2-analytics, 1, 365, .tumblr.com)
 tumblr.com##+js(bakeCookie, euconsent-v2-noniab, AAVE, 365, .tumblr.com)
-ubi2.wit.edu.pl##+js(bakeCookie, GPRD, 128, 365)
 wunderground.com##+js(bakeCookie, notice_gdpr_prefs, 0,1,2,3:, 365)
 wunderground.com##+js(bakeCookie, notice_poptime, 1687980968000, 365)
