@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2024.3.10.0
+! Version: 2024.4.14.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2023 Filters Heroes
 !
@@ -104,6 +104,7 @@ euroclear.com##+js(bakeCookie, cc_necessary, true, 365)
 eurocupbasketball.com,euroleague.net##+js(bakeCookie, cookieBanner, true, 365)
 eurocupbasketball.com,euroleague.net##+js(bakeCookie, modalNotSeenEV, 1, 365)
 evangelisch.de##+js(bakeCookie, bigfoot_cookie-consent, true, 365)
+event-eu.realme.com##+js(bakeCookie, acceptCookies, 1, 365)
 ezys.lt##+js(bakeCookie, cookie-consent, 3, 365)
 favre-leuba.com##+js(bakeCookie, seenCookieBar, true, 365)
 fiaworldrallycross.com##+js(bakeCookie, privacyupdate, 1, 365)
