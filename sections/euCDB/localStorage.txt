@@ -1,6 +1,5 @@
 eqmac.app##+js(addToStorage, EQM_PRIVACY_CONSENT_CHOSEN, true)
 figuya.com##+js(addToStorage, cookie-dialog, closed)
-hbomax.com##+js(addToStorage, consentChoices, {"allowFunctionalCookies":true,"allowPerformanceCookies":true,"allowTargetingCookies":true,"timestamp":"2024-03-10T16:48:57.101Z"})
 krant.ad.nl,krant.demorgen.be,krant.dg.nl,krant.ed.nl,krant.parool.nl,krant.trouw.nl,krant.volkskrant.nl##+js(addToStorage, vl_disable_tracking, true)
 krant.ad.nl,krant.demorgen.be,krant.dg.nl,krant.ed.nl,krant.parool.nl,krant.trouw.nl,krant.volkskrant.nl##+js(addToStorage, vl_disable_usecookie, selected)
 lifesum.com##+js(addToStorage, accepted-cookies, [])
