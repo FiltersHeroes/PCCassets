@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2024.4.14.0
+! Version: 2024.8.25.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2023 Filters Heroes
 !
@@ -9,7 +9,6 @@
 ! Local storage
 eqmac.app##+js(addToStorage, EQM_PRIVACY_CONSENT_CHOSEN, true)
 figuya.com##+js(addToStorage, cookie-dialog, closed)
-hbomax.com##+js(addToStorage, consentChoices, {"allowFunctionalCookies":true,"allowPerformanceCookies":true,"allowTargetingCookies":true,"timestamp":"2024-03-10T16:48:57.101Z"})
 krant.ad.nl,krant.demorgen.be,krant.dg.nl,krant.ed.nl,krant.parool.nl,krant.trouw.nl,krant.volkskrant.nl##+js(addToStorage, vl_disable_tracking, true)
 krant.ad.nl,krant.demorgen.be,krant.dg.nl,krant.ed.nl,krant.parool.nl,krant.trouw.nl,krant.volkskrant.nl##+js(addToStorage, vl_disable_usecookie, selected)
 lifesum.com##+js(addToStorage, accepted-cookies, [])
