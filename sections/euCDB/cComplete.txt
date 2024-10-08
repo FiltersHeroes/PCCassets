@@ -1,2 +1,2 @@
-dailywrap.ca,dailywrap.net,dailywrap.uk,essanews.com##+js(clickComplete, button, 300, I ACCEPT AND GO TO THE WEBSITE)
+dailywrap.ca,dailywrap.net,dailywrap.uk,essanews.com,handimania.com##+js(clickComplete, button, 300, I ACCEPT AND GO TO THE WEBSITE)
 vpolshchi.pl##+js(clickComplete, button, 300, ПЕРЕХОДЖУ)
