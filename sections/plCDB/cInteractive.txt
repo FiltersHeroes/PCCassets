@@ -1,1 +1,2 @@
 odr.pl##+js(clickInteractive, .termsagree)
+pk.edu.pl,warzywapolowe.pl,airportwebcams.net##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][style="order: 0;"][data-order="0"][role="button"] span)
