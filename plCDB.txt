@@ -1,6 +1,6 @@
 ! Polska Baza Ciasteczkowa
 ! Polish Cookie Database
-! Version: 2024.9.8.0
+! Version: 2024.10.20.0
 ! License: MIT (https://opensource.org/licenses/MIT)
 ! Copyright © 2023 Filters Heroes
 !
@@ -67,6 +67,7 @@ wroclaw.pl##+js(bakeCookie, iRodoInfo, 1, 365)
 !
 ! Click interactive
 odr.pl##+js(clickInteractive, .termsagree)
+pk.edu.pl,warzywapolowe.pl##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][style="order: 0;"][data-order="0"][role="button"] span)
 !
 !
 ! Click timeout
