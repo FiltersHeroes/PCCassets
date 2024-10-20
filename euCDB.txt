@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2024.9.8.0
+! Version: 2024.10.20.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2023 Filters Heroes
 !
@@ -248,6 +248,10 @@ www2.hm.com##+js(bakeCookie, hm_gdpr_read, true, 365)
 xercise4less.co.uk##+js(bakeCookie, X4LCookiesAccepted, true, 365)
 yourstory.com##+js(bakeCookie, alreadyVisited, true, 365)
 zattoo.com##+js(bakeCookie, cookie_policy_agreement, 1, 365)
+!
+!
+! Click interactive
+4kfilme.de,aeotec.com,airportwebcams.net,geschichte-wissen.de,mysize.ch##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][style="order: 0;"][data-order="0"][role="button"] span)
 !
 !
 ! Click timeout
