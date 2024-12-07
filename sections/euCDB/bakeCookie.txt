@@ -1,3 +1,4 @@
+msec.gdata.de##+js(bakeCookie, cookiepolicy, strictly_necessary_cookies, 400)
 2a.com,g2a.co##+js(bakeCookie, gdpr_cookie, %5B%5D, 365)
 aceandtate.com##+js(bakeCookie, cookieconsent_status, allow, 365)
 advodan.dk,esea.net##+js(bakeCookie, cookie_consent, 1, 365)
