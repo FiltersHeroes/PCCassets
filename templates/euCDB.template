@@ -12,6 +12,7 @@
 !
 ! Cookies
 @include bakeCookie
+@include bakeCookie-compatible
 !
 !
 ! Click interactive
@@ -22,3 +23,5 @@
 @include cTimeout
 !
 !
+! Click complete
+@include cComplete
