@@ -1,3 +1,2 @@
-app.pitbot.pl##+js(addToStorage, cookieConsent true)
 grupapsb.com.pl,mrowka.com.pl##+js(addToStorage, CookiesAcceptedv2, true)
 przystanki.bialystok.pl##+js(addToStorage, cookie-accepted, 1)
