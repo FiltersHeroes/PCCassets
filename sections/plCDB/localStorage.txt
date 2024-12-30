@@ -1,2 +1,3 @@
+goodie.pl##+js(addToStorage, cookies-consent, "1.0")
 grupapsb.com.pl,mrowka.com.pl##+js(addToStorage, CookiesAcceptedv2, true)
 przystanki.bialystok.pl##+js(addToStorage, cookie-accepted, 1)
