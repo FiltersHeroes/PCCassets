@@ -1,9 +1,9 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2024.12.7.0
+! Version: 2025.1.5.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
-! Copyright © 2024 Filters Heroes
+! Copyright © 2025 Filters Heroes
 !
 !
 ! Local storage
@@ -46,7 +46,6 @@ finantia.es##+js(bakeCookie, strictly_necessary, active, 365)
 frankfurt.de##+js(bakeCookie, cookieAccepted, needed---piwik, 365)
 globalplayer.com##+js(bakeCookie, consentUUID, 382584da-af8a-469e-aedf-11ac420ec96d, 365)
 grweb.ics.forth.gr##+js(bakeCookie, CookieConsent, {stamp:%27==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:1%2Cutc:1687980968000%2Cregion:%27pl%27}, 365)
-hrkgame.com##+js(bakeCookie, gdpralert, done, 365)
 insidebruegel.net##+js(bakeCookie, InsideBruegel, init, 365)
 kink.nl##+js(bakeCookie, cookieConsent-1.0, %5B%7B%22id%22%3A%22analytics%22%2C%22active%22%3Atrue%7D%2C%7B%22id%22%3A%22advertisement%22%2C%22active%22%3Atrue%7D%2C%7B%22id%22%3A%22social%22%2C%22active%22%3Atrue%7D%5D, 365)
 kitchenplanner.ikea.com##+js(bakeCookie, EnableGlobalLicenseAgreement, 2015-04-01, 365)
@@ -57,7 +56,6 @@ msec.gdata.de##+js(bakeCookie, cookiepolicy, strictly_necessary_cookies, 400)
 newegg.ca,newegg.com##+js(bakeCookie, NV%5FGDPR, 001, 365)
 pagetiger.com##+js(bakeCookie, cookie-preferences, {%22acceptedAnalyticsCookie%22:true}, 365)
 pluto.tv##+js(bakeCookie, tos_acceptance_date, 1687980968000, 365)
-prodyna.at,prodyna.ch,prodyna.co.uk,prodyna.com##+js(bakeCookie, prodyna-cookies, ALL, 365)
 proximus.be,sap.com,tmz.com,wunderground.com##+js(bakeCookie, notice_gdpr_prefs, 0,1,2,3:, 365)
 resursbank.se##+js(bakeCookie, cookie_consent, necessary%3A1%2Cstatistics%3A0%2Cmarketing%3A0, 365)
 sfendocrino.org##+js(bakeCookie, name1, the_cookie, 365)
@@ -153,6 +151,7 @@ grouperf.com##+js(bakeCookie, cookie_rgpd, 1, 365)
 gyakorikerdesek.hu##+js(bakeCookie, cookieok, 1, 365)
 hartfordbusiness.com##+js(bakeCookie, Drupal.visitor.WEBSITECOOKIEALLOWED, YES, 365)
 hetzner.com##+js(bakeCookie, cookies_allowed, 1, 365)
+hrkgame.com##+js(bakeCookie, gdpralert, done, 365)
 indiegala.com##+js(bakeCookie, policy-popup, true, 365)
 ing.be##+js(bakeCookie, cookiesOptin, true, 365)
 ing.nl##+js(bakeCookie, cookiepref, 1, 365)
@@ -199,6 +198,7 @@ picmonkey.com##+js(bakeCookie, termsOfUse, 0, 365)
 plex.tv##+js(bakeCookie, plex_tv_cookie_consent, 2, 365)
 poolia.se##+js(bakeCookie, cookiePolicyAccepted, 1, 365)
 portugalforum.org##+js(bakeCookie, xf_eucookie, 1, 365)
+prodyna.at,prodyna.ch,prodyna.co.uk,prodyna.com##+js(bakeCookie, prodyna-cookies, ALL, 365)
 proximus.be,sap.com,tmz.com##+js(bakeCookie, notice_preferences, 3, 365)
 quandoo.at##+js(bakeCookie, quandoo_cookie_policy, accepted, 365)
 quick.be##+js(bakeCookie, cookie-policy-accepted, 1, 365)
