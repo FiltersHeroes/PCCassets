@@ -8,6 +8,7 @@
 !
 ! Local storage
 @include localStorage
+@include localStorage-compatible
 !
 !
 ! Cookies

@@ -1,0 +1,11 @@
+! compatible with uBo 1.51.0+: https://github.com/gorhill/uBlock/wiki/Resources-Library#set-local-storage-itemjs-
+eqmac.app##+js(addToStorage, EQM_PRIVACY_CONSENT_CHOSEN, true)
+hrkgame.com##+js(addToStorage, gdpralert, done)
+krant.ad.nl,krant.demorgen.be,krant.dg.nl,krant.ed.nl,krant.parool.nl,krant.trouw.nl,krant.volkskrant.nl##+js(addToStorage, vl_disable_tracking, true)
+lifesum.com##+js(addToStorage, accepted-cookies, [])
+m.aliexpress.com##+js(addToStorage, MSITE_GDPR, true)
+nexus.gg##+js(addToStorage, cookie-notice:accepted, true)
+programmitv.it##+js(addToStorage, privacy_choices_made, OK)
+scoodleplay.be##+js(addToStorage, scoodleAllowCookies, true)
+streamelements.com##+js(addToStorage, StreamElements.gdprNoticeAccepted, true)
+wezine.fr##+js(addToStorage, gbcookies, 1)
