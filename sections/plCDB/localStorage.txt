@@ -1,2 +1,1 @@
 goodie.pl##+js(addToStorage, cookies-consent, "1.0")
-
