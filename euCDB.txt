@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2025.1.6.0
+! Version: 2025.1.15.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2025 Filters Heroes
 !
@@ -267,6 +267,9 @@ blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,b
 consent.google.at,consent.google.be,consent.google.by,consent.google.co.uk,consent.google.com,consent.google.cz,consent.google.de,consent.google.dk,consent.google.ee,consent.google.es,consent.google.fi,consent.google.fr,consent.google.gr,consent.google.hr,consent.google.hu,consent.google.ie,consent.google.is,consent.google.it,consent.google.li,consent.google.lt,consent.google.lu,consent.google.lv,consent.google.mc,consent.google.md,consent.google.me,consent.google.mk,consent.google.mt,consent.google.nl,consent.google.no,consent.google.pt,consent.google.ro,consent.google.ru,consent.google.se,consent.google.si,consent.google.sk,consent.youtube.com##+js(clickTimeout, form[action*="consent."] [aria-label][jsname])
 facebook.com,instagram.com,messenger.com##+js(clickTimeout, body > div [data-cookiebanner="accept_button"])
 fandom.com##+js(clickTimeout, [data-tracking-opt-in-accept="true"], euconsent-v2)
+flash.pt,gpblog.com,grland.info,wackojaco.com##+js(clickTimeout, .qc-cmp2-header-links > button[mode="link"]:first-child, euconsent-v2)
+flash.pt,gpblog.com,grland.info,wackojaco.com##+js(clickTimeout, button[mode="secondary"], euconsent-v2)
+flash.pt,gpblog.com,grland.info,wackojaco.com##+js(clickTimeout, div[class^="qc-cmp2-buttons-"] > button[mode="primary"], euconsent-v2)
 iltalehti.fi##+js(clickTimeout, #almacmp-modalConfirmBtn)
 stooq.com##+js(clickTimeout, .fc-dialog .fc-footer-buttons button.fc-cta-consent, privacy)
 wetransfer.com##+js(clickTimeout, .welcome--cookies.welcome .welcome__button--accept, __wtcm)
