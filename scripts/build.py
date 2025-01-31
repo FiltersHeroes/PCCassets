@@ -64,25 +64,13 @@ if plCDB_mod is False:
     os.remove(pn(os.getcwd()+"/PolishCookieConsent/src/cookieBase/PCB.txt"))
     shutil.copy(pn(os.getcwd()+"/PCCassets/plCDB.txt"), pn(os.getcwd()+"/PolishCookieConsent/src/cookieBase/PCB.txt"))
 
+    print(f"Entering directory: {pn(os.getcwd()+"/PolishCookieConsent")}")
     os.chdir(pn(os.getcwd()+"/PolishCookieConsent"))
 
-    git_repo = git.Repo(pn(os.getcwd()), search_parent_directories=True)
+    git_repo = git.Repo(os.getcwd())
 
-    class conf():
-        def __init__(self):
-            if os.path.isfile(config_path):
-                with open(config_path, "r", encoding="utf8") as cf:
-                    for lineConf in cf:
-                        cfProperty = lineConf.strip().split()[
-                            0].replace("@", "")
-                        if matchC := re.search(r'@'+cfProperty+' (.*)$', lineConf):
-                            self[cfProperty] = matchC.group(1)
-        def __setitem__(self, key, value):
-            setattr(self, key, value)
-        def __getitem__(self, key):
-            return getattr(self, key)
-
-    if "CI" in os.environ:
+    if "CI" in os.environ and "git_repo" in locals():
+        conf = SFLB.getValuesFromConf([config_path])
         with git_repo.config_writer() as cw:
             if hasattr(conf(), 'CIusername'):
                 cw.set_value("user", "name", conf().CIusername).release()

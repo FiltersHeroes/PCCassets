@@ -20,8 +20,10 @@ jobs:
         with:
           app-id: ${{ vars.APP_HELPER_ID }}
           private-key: ${{ secrets.PRIVATE_APP_HELPER_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: "PCCassets,PolishCookieConsent"
       - env:
           GIT_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          ./scripts/build.py
+          python3 ./scripts/build.py
