@@ -48,7 +48,7 @@ SFLB.push([pj(main_path, "euCDB.txt")])
 
 plCDB_mod = filecmp.cmp(pn(pj(main_path, "plCDB.txt")), pn(pj(backup_path, "plCDB.txt")))
 
-if plCDB_mod is False:
+if plCDB_mod is False or True:
     print("Copying list to Polish Cookie Consent repo...")
 
     if "CI" in os.environ:
