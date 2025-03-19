@@ -12,7 +12,7 @@ cineman.pl,tv-trwam.pl##+js(bakeCookie, ARE_MARKETING_COOKIES_ACCEPTED, true, 36
 cineman.pl,tv-trwam.pl##+js(bakeCookie, ARE_REQUIRED_COOKIES_ACCEPTED, true, 365)
 cineman.pl,tv-trwam.pl##+js(bakeCookie, HAS_COOKIES_FORM_SHOWED, true, 365)
 emuia1.gugik.gov.pl##+js(bakeCookie, cookieMessageHide, true, 365)
-entra.pl,grupabiwakowa.pl,nowymarketing.pl##+js(bakeCookie, cmplz_banner-status, dismissed, 365)
+grupabiwakowa.pl,nowymarketing.pl##+js(bakeCookie, cmplz_banner-status, dismissed, 365)
 espedytor.pl##+js(bakeCookie, zgodaRODO, true, 365)
 forgeofempires.com##+js(bakeCookie, CookieNotification, 0, 365)
 gamepedia.com,wikia.com,wikia.org##+js(bakeCookie, tracking-opt-in-status, accepted, 365)
