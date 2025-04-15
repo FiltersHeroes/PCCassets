@@ -1,2 +1,2 @@
-darlowo.pl,pk.edu.pl,warzywapolowe.pl##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][style="order: 0;"][data-order="0"][role="button"] span)
+darlowo.pl,pcelite.pl,pk.edu.pl,warzywapolowe.pl##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][style="order: 0;"][data-order="0"][role="button"] span)
 odr.pl##+js(clickInteractive, .termsagree)
