@@ -10,6 +10,6 @@ flash.pt,gpblog.com,grland.info,wackojaco.com##+js(clickTimeout, .qc-cmp2-header
 flash.pt,gpblog.com,grland.info,wackojaco.com##+js(clickTimeout, button[mode="secondary"], euconsent-v2)
 flash.pt,gpblog.com,grland.info,wackojaco.com##+js(clickTimeout, div[class^="qc-cmp2-buttons-"] > button[mode="primary"], euconsent-v2)
 iltalehti.fi##+js(clickTimeout, #almacmp-modalConfirmBtn)
-instagram.com,messenger.com,threads.com##+js(clickTimeout, body > div [data-cookiebanner="accept_button"])
+instagram.com,messenger.com,##+js(clickTimeout, body > div [data-cookiebanner="accept_button"])
 stooq.com##+js(clickTimeout, .fc-dialog .fc-footer-buttons button.fc-cta-consent, privacy)
 wetransfer.com##+js(clickTimeout, .welcome--cookies.welcome .welcome__button--accept, __wtcm)
