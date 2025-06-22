@@ -1,3 +1,4 @@
+plenti.app##+js(bakeCookie, cookie_consent, %7B%22marketing%22%3Afalse%2C%22analytical%22%3Afalse%7D, 365)
 al.to,x-kom.pl##+js(bakeCookie, trackingPermissionConsentsValue, {%22cookies_analytics%22:true%2C%22cookies_personalization%22:true%2C%22cookies_advertisement%22:true}, 365)
 beltone-polska.pl##+js(bakeCookie, ckies_cookielaw, allow, 365)
 beltone-polska.pl##+js(bakeCookie, ckies_google_maps, allow, 365)
