@@ -1,3 +1,4 @@
+plenti.app##+js(bakeCookie, cookie_consent, %7B%22marketing%22%3Afalse%2C%22analytical%22%3Afalse%7D, 365)
 2a.com,g2a.co##+js(bakeCookie, gdpr_cookie, %5B%5D, 365)
 archiveofourown.org##+js(bakeCookie, accepted_tos, 20180523, 365)
 bakkt.com##+js(bakeCookie, iceBanner, PrivacyBakkt0101, 365)
