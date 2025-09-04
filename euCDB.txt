@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2025.8.28.1
+! Version: 2025.9.4.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2025 Filters Heroes
 !
@@ -24,7 +24,6 @@ wezine.fr##+js(addToStorage, gbcookies, 1)
 !
 !
 ! Cookies
-!threads.com,threads.net##+js(bakeCookie, cb, 1_1970_01_01_2-3, 365)
 2a.com,g2a.co##+js(bakeCookie, gdpr_cookie, %5B%5D, 365)
 archiveofourown.org##+js(bakeCookie, accepted_tos, 20180523, 365)
 bakkt.com##+js(bakeCookie, iceBanner, PrivacyBakkt0101, 365)
@@ -262,7 +261,6 @@ zattoo.com##+js(bakeCookie, cookie_policy_agreement, 1, 365)
 !
 !
 ! Click timeout
-!consentv2.sport1.de##+js(clickTimeout, .qc-cmp2-footer button + button, euconsent-v2)
 /^https?:\/\/consent\.yahoo.com\/[a-z0-9]{2}\/collectConsent/##+js(clickTimeout, .btn[name="agree"])
 allestoringen.be,allestoringen.nl,downdetector.ae,downdetector.at,downdetector.ca,downdetector.ch,downdetector.cl,downdetector.co.il,downdetector.co.nz,downdetector.co.uk,downdetector.co.za,downdetector.com,downdetector.com.ar,downdetector.com.au,downdetector.com.br,downdetector.com.co,downdetector.cz,downdetector.de,downdetector.dk,downdetector.ec,downdetector.es,downdetector.fi,downdetector.fr,downdetector.gr,downdetector.hk,downdetector.hr,downdetector.hu,downdetector.id,downdetector.ie,downdetector.in,downdetector.it,downdetector.jp,downdetector.mx,downdetector.my,downdetector.no,downdetector.pe,downdetector.ph,downdetector.pk,downdetector.pt,downdetector.ro,downdetector.ru,downdetector.se,downdetector.sg,downdetector.sk,downdetector.tw,downdetector.web.tr,olx.bg,olx.pt,olx.ro,olx.ua,xn--allestrungen-9ib.at,xn--allestrungen-9ib.ch,xn--allestrungen-9ib.de##+js(clickTimeout, .evidon-barrier-acceptbutton)
 antena3.com,atlantico.fr,automoto.it,bfmtv.com,bloomberg.com,boursorama.com,businessinsider.de,canarias7.es,cdn.privacy-mgmt.com,chefkoch.de,cmp-sp.reisereporter.de,cmp.ad.nl,cmp.dpgmedia.be,cmp.fitforfun.de,cmp.hln.be,cmp.tag24.de,cmp.utopia.de,cnews.fr,consent-cdn.sueddeutsche.de,consent-cdn.zeit.de,consent.faz.net,corriere.it,dailymotion.com,dn.se,dna.fr,elcorreo.com,europe1.fr,express.co.uk,fandom.com,france24.com,franceculture.fr,gamestar.de,gazzetta.it,huffingtonpost.fr,ideal.es,ign.com,index.hr,indy100.com,infoworld.com,ingame.de,jeanmarcmorandini.com,jeuxvideo.com,jn.pt,lasprovincias.es,ledauphine.com,lemonde.fr,lesoir.be,marianne.net,moto.it,movieplayer.it,myprivacy.dpgmedia.be,nouvelobs.com,ondacero.es,ouest-france.fr,ouvelobs.com,plus.gmx.fr,podcasts.podinstall.com,privacy.madame.de,programme-television.org,public.fr,publicsenat.fr,purepeople.com,rtl.be,seguro.elespanol.com,sourcepoint.avclub.com,sourcepoint.deadspin.com,sourcepoint.jezebel.com,sourcepoint.lifehacker.com,sourcepoint.n-tv.de,sourcepoint.theinventory.com,sourcepoint.theonion.com,sourcepoint.theroot.com,sourcepoint.thetakeout.com,sourcepoint.wetter.de,sport.de,sport1.de,stimme.de,sudinfo.be,tomshw.it,travlerz.com,tumblr.com,tviplayer.iol.pt,tz.de,vi.nl,vip.de,ze.tt##+js(clickTimeout, .qc-cmp2-footer button + button, euconsent-v2)
@@ -280,5 +278,4 @@ wetransfer.com##+js(clickTimeout, .welcome--cookies.welcome .welcome__button--ac
 !
 !
 ! Click complete
-dailywrap.net,essanews.com##+js(clickComplete, button, 300, I ACCEPT AND GO TO THE WEBSITE)
-handimania.com##+js(clickComplete, button[aria-label="I accept and go to the website"], 300)
+dailywrap.net,essanews.com,handimania.com##+js(clickComplete, button, 300, accept and go to the website)
