@@ -1,4 +1,3 @@
-!threads.com,threads.net##+js(bakeCookie, cb, 1_1970_01_01_2-3, 365)
 2a.com,g2a.co##+js(bakeCookie, gdpr_cookie, %5B%5D, 365)
 archiveofourown.org##+js(bakeCookie, accepted_tos, 20180523, 365)
 bakkt.com##+js(bakeCookie, iceBanner, PrivacyBakkt0101, 365)

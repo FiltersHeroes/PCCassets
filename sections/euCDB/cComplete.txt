@@ -1,2 +1,1 @@
-dailywrap.net,essanews.com##+js(clickComplete, button, 300, I ACCEPT AND GO TO THE WEBSITE)
-handimania.com##+js(clickComplete, button[aria-label="I accept and go to the website"], 300)
+dailywrap.net,essanews.com,handimania.com##+js(clickComplete, button, 300, accept and go to the website)

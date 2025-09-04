@@ -1,4 +1,3 @@
-!threads.com,threads.net##+js(bakeCookie, cb, 1_1970_01_01_2-3, 365)
 al.to,x-kom.pl##+js(bakeCookie, trackingPermissionConsentsValue, {%22cookies_analytics%22:true%2C%22cookies_personalization%22:true%2C%22cookies_advertisement%22:true}, 365)
 beltone-polska.pl##+js(bakeCookie, ckies_cookielaw, allow, 365)
 beltone-polska.pl##+js(bakeCookie, ckies_google_maps, allow, 365)

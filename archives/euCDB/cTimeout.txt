@@ -1,0 +1,1 @@
+consentv2.sport1.de##+js(clickTimeout, .qc-cmp2-footer button + button, euconsent-v2)
