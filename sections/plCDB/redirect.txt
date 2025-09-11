@@ -1,2 +1,2 @@
-/^https?:\/\/(www\.)?edytor-serwis\.com\.pl\/$/##+js(redirect, index2.html, false)
+/^https?:\/\/(www\.)?edytor-serwis\.com\.pl\.?\/$/##+js(redirect, index2.html, false)
 f1racing.pl##+js(redirect, x-set-cookie, true, x-id-cookie-yes)
