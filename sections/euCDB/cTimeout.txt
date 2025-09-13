@@ -11,4 +11,4 @@ flash.pt,gpblog.com,grland.info,wackojaco.com##+js(clickTimeout, div[class^="qc-
 iltalehti.fi##+js(clickTimeout, #almacmp-modalConfirmBtn)
 instagram.com,messenger.com##+js(clickTimeout, body > div [data-cookiebanner="accept_button"])
 stooq.com##+js(clickTimeout, .fc-dialog .fc-footer-buttons button.fc-cta-consent, privacy)
-wetransfer.com##+js(clickTimeout, .welcome--cookies.welcome .welcome__button--accept, __wtcm)
+wetransfer.com##+js(clickTimeout, .fides-consent-wall .fides-banner-button-group > button.fides-accept-all-button, __wtcm)
