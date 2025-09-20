@@ -1,3 +1,4 @@
+dehn.de##+js(addToStorage, uc_gcm, {"adsDataRedaction":true,"adPersonalization":"denied","adStorage":"denied","adUserData":"denied","analyticsStorage":"denied"}, 365)
 figuya.com##+js(addToStorage, cookie-dialog, closed)
 krant.ad.nl,krant.demorgen.be,krant.dg.nl,krant.ed.nl,krant.parool.nl,krant.trouw.nl,krant.volkskrant.nl##+js(addToStorage, vl_disable_usecookie, selected)
 phoenix.de##+js(addToStorage, user_anonymous_profile, {"config":{"tracking":false,"userprofile":false,"youtube":false,"twitter":false,"facebook":false,"iframe":false,"video":{"useSubtitles":false,"useAudioDescription":false}},"votings":[],"msgflash":[],"history":[]})
