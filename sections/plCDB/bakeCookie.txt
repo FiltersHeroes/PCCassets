@@ -1,6 +1,7 @@
 al.to,x-kom.pl##+js(bakeCookie, trackingPermissionConsentsValue, %7B%22cookies_analytics%22%3Afalse%2C%22cookies_personalization%22%3Afalse%2C%22cookies_advertisement%22%3Afalse%7D, 365)
 beltone-polska.pl##+js(bakeCookie, ckies_cookielaw, allow, 365)
 beltone-polska.pl##+js(bakeCookie, ckies_google_maps, allow, 365)
+beltone-polska.pl##+js(bakeCookie, ckies_powr_marketing, allow, 365)
 beltone-polska.pl##+js(bakeCookie, ckies_powr-v2, allow, 365)
 beltone-polska.pl##+js(bakeCookie, ckies_youtu, allow, 365)
 bing.com##+js(bakeCookie, BCP, AD=0&AL=0&SM=0, 1)
