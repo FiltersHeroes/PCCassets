@@ -1,6 +1,6 @@
 ! Polska Baza Ciasteczkowa
 ! Polish Cookie Database
-! Version: 2025.9.20.0
+! Version: 2025.9.25.0
 ! License: MIT (https://opensource.org/licenses/MIT)
 ! Copyright © 2025 Filters Heroes
 !
@@ -19,11 +19,12 @@ al.to,x-kom.pl##+js(bakeCookie, trackingPermissionConsentsValue, %7B%22cookies_a
 beltone-polska.pl##+js(bakeCookie, ckies_cookielaw, allow, 365)
 beltone-polska.pl##+js(bakeCookie, ckies_google_maps, allow, 365)
 beltone-polska.pl##+js(bakeCookie, ckies_powr-v2, allow, 365)
+beltone-polska.pl##+js(bakeCookie, ckies_powr_marketing, allow, 365)
 beltone-polska.pl##+js(bakeCookie, ckies_youtu, allow, 365)
 bing.com##+js(bakeCookie, BCP, AD=0&AL=0&SM=0, 1)
 biuroprasowe.porta.com.pl##+js(bakeCookie, cookies-agreement, {"necessary":true,"preferences":true,"analytical":false,"marketing":false}, 30)
 electronicbeats.pl##+js(bakeCookie, borlabs-cookie, %7B%22consents%22%3A%7B%22essential%22%3A%5B%22borlabs-cookie%22%2C%22google-tag-manager%22%5D%2C%22external-media%22%3A%5B%22facebook%22%2C%22bandcamp%22%2C%22mixcloud%22%2C%22soundcloud%22%2C%22spotify%22%2C%22googlemaps%22%2C%22instagram%22%2C%22openstreetmap%22%2C%22twitter%22%2C%22vimeo%22%2C%22youtube%22%2C%22externalmedia%22%5D%7D%2C%22domainPath%22%3A%22www.electronicbeats.net%2F%22%2C%22expires%22%3A%22Sun%2C%2020%20Sep%202026%2011%3A47%3A49%20GMT%22%2C%22uid%22%3A%22h44u789h-t6qdfnk8-5cpxx9bv-jtqxgsg1%22%2C%22version%22%3A%223%22%7D, 365)
-eurogamer.pl##+js(bakeCookie, zdconsent, optin)
+eurogamer.pl##+js(bakeCookie, zdconsent, optin, 365)
 hiszpanskidlapolakow.com##+js(bakeCookie, gdpr-accepted, {"ga":false,"facebook":true,"disqus":true}, 365)
 messenger.com##+js(bakeCookie, datr, mWTaZBxAoW8lFl0v3EpECGYi, 365)
 mini.com.pl##+js(bakeCookie, cc_consentCookie, %7B%22mini_poland_family%22%3A%7B%22cmm%22%3A%7B%22advertising%22%3A0%7D%2C%22cdc%22%3A1%2C%22tp%22%3A1661330829156%2C%22lmt%22%3A1758369632088%7D%7D, 365, .mini.com.pl)
@@ -64,9 +65,9 @@ mapa.szukacz.pl##+js(bakeCookie, gdprid, 1, 365)
 mapy.geoportal.gov.pl##+js(bakeCookie, regulationsAccepted, true, 365)
 mapy.geoportal.gov.pl##+js(bakeCookie, rules, 1, 365)
 nike.com##+js(bakeCookie, sq, 3, 365)
-pepper.pl##+js(bakeCookie, cookie_policy_agreement, 3)
+pepper.pl##+js(bakeCookie, cookie_policy_agreement, 3, 365)
 polsatboxgo.pl##+js(bakeCookie, rodo-modal-displayed, 1, 365)
-senda.pl##+js(bakeCookie,sendapl_phpbb3_ca, 1, 365)
+senda.pl##+js(bakeCookie, sendapl_phpbb3_ca, 1, 365)
 tumblr.com##+js(bakeCookie, euconsent-v2-analytics, 1, 365, .tumblr.com)
 tvsmart.elsat.pl,tvsmart.jambox.pl,tvsmart.multimedia.pl,tvsmart.pl,tvsmart.vectra.pl,tvsmartgo.elsat.pl##+js(bakeCookie, cookie-notice, 1, 365)
 ubi2.wit.edu.pl##+js(bakeCookie, GPRD, 128, 365)
