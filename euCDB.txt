@@ -1,13 +1,13 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2025.9.20.0
+! Version: 2025.9.25.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2025 Filters Heroes
 !
 !
 ! Local storage
-dehn.de##+js(addToStorage, uc_gcm, {"adsDataRedaction":true,"adPersonalization":"denied","adStorage":"denied","adUserData":"denied","analyticsStorage":"denied"}, 365)
+dehn.de##+js(addToStorage, uc_gcm, {"adsDataRedaction":true,"adPersonalization":"denied","adStorage":"denied","adUserData":"denied","analyticsStorage":"denied"})
 figuya.com##+js(addToStorage, cookie-dialog, closed)
 krant.ad.nl,krant.demorgen.be,krant.dg.nl,krant.ed.nl,krant.parool.nl,krant.trouw.nl,krant.volkskrant.nl##+js(addToStorage, vl_disable_usecookie, selected)
 phoenix.de##+js(addToStorage, user_anonymous_profile, {"config":{"tracking":false,"userprofile":false,"youtube":false,"twitter":false,"facebook":false,"iframe":false,"video":{"useSubtitles":false,"useAudioDescription":false}},"votings":[],"msgflash":[],"history":[]})
