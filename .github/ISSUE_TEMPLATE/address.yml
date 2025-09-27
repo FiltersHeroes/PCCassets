@@ -1,0 +1,41 @@
+name: Nowa strona (Nowe strony) do zaadresowania 🌐
+description: New page(s) to address 🌐
+labels: zgłoszenie
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dziękujemy za zgłoszenie nowej strony (nowych stron) do zaadresowania w repozytorium PCCassets!
+        Thanks for reporting new page(s) to address in PCCassets repository!
+  - type: input
+    id: adblocker
+    attributes:
+      label: Bloker (Blocker)
+      placeholder: uBlock Origin 1.35.2
+    validations:
+      required: true
+  - type: input
+    id: PCC
+    attributes:
+      label: Wersja dodatku PZC (Version of PCC Add-on)
+      placeholder: 1.47.1
+    validations:
+      required: true
+  - type: textarea
+    id: specificURL
+    attributes:
+      label: Link bezpośredni, na którym występuje polityka RODO-Ciasteczkowa do ogarnięcia (niekompatybilna z uBO)
+      description: Direct link to page(s) where the GDPR-Cookie Policy need address (incompatible with uBO)
+      placeholder: https://www.biedronka.pl/nowagazetka
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: otherInfo
+    attributes:
+      label: Dodatkowe informacje mogące mieć znaczenie
+      description: Additional information that may be relevant
+      placeholder: |
+        Zrzuty ekranu, twoja metoda rozwiązania problemu i inne ważne informacje.
+        Screenshots, your method of solving the problem and other important information.
