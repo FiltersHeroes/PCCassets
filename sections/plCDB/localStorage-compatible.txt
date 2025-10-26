@@ -1,5 +1,6 @@
 ! compatible with uBo 1.51.0+: https://github.com/gorhill/uBlock/wiki/Resources-Library#set-local-storage-itemjs-
 grupapsb.com.pl,mrowka.com.pl##+js(addToStorage, CookiesAcceptedv2, true)
 hrkgame.com##+js(addToStorage, gdpralert, done)
+login.e-dowod.gov.pl##+js(addToStorage, dataProcessingInfoDialogRead, true)
 m.aliexpress.com##+js(addToStorage, MSITE_GDPR, true)
 przystanki.bialystok.pl##+js(addToStorage, cookie-accepted, 1)
