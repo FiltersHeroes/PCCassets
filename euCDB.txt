@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2025.9.25.0
+! Version: 2025.11.16.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2025 Filters Heroes
 !
@@ -277,3 +277,4 @@ wetransfer.com##+js(clickTimeout, .fides-consent-wall .fides-banner-button-group
 !
 ! Click complete
 dailywrap.net,essanews.com,handimania.com##+js(clickComplete, button, 300, accept and go to the website)
+olympijskytym.cz##+js(clickComplete, #cc--main button.c-bn.c_link, cc_cookie)
