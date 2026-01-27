@@ -1,6 +1,6 @@
 ! Polska Baza Ciasteczkowa
 ! Polish Cookie Database
-! Version: 2025.12.14.0
+! Version: 2026.1.27.0
 ! License: MIT (https://opensource.org/licenses/MIT)
 ! Copyright © 2025 Filters Heroes
 !
@@ -75,7 +75,7 @@ wroclaw.pl##+js(bakeCookie, iRodoInfo, 1, 365)
 !
 !
 ! Click interactive
-darlowo.pl,girlandowo.pl,jagodnik.pl,pcelite.pl,pk.edu.pl,swiat-zosi.pl,warzywapolowe.pl##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][role="button"][id] span)
+darlowo.pl,girlandowo.pl,jagodnik.pl,pcelite.pl,pk.edu.pl,swiat-zosi.pl,taxando.de,warzywapolowe.pl##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][role="button"][id] span)
 !
 !
 ! Click timeout
