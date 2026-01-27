@@ -1,7 +1,7 @@
 ! Europejska Baza Ciasteczkowa
 ! European Cookie Database
 ! Description: It's based on IDCAC(https://www.i-dont-care-about-cookies.eu/) and contains filters for all sites except those Polish.
-! Version: 2025.11.16.0
+! Version: 2026.1.27.0
 ! License: GPL-3.0 (https://github.com/FiltersHeroes/PCCassets/blob/main/LICENSE)
 ! Copyright © 2025 Filters Heroes
 !
@@ -255,7 +255,7 @@ zattoo.com##+js(bakeCookie, cookie_policy_agreement, 1, 365)
 !
 !
 ! Click interactive
-4kfilme.de,aeotec.com,airportwebcams.net,geschichte-wissen.de,mysize.ch##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][style="order: 0;"][data-order="0"][role="button"] span)
+4kfilme.de,aeotec.com,airportwebcams.net,geschichte-wissen.de,mysize.ch,taxando.de##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][role="button"][id] span)
 !
 !
 ! Click timeout
