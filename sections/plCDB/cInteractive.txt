@@ -1,1 +1,1 @@
-darlowo.pl,girlandowo.pl,jagodnik.pl,pcelite.pl,pk.edu.pl,swiat-zosi.pl,warzywapolowe.pl##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][role="button"][id] span)
+darlowo.pl,girlandowo.pl,jagodnik.pl,pcelite.pl,pk.edu.pl,swiat-zosi.pl,warzywapolowe.pl,taxando.de##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][role="button"][id] span)
