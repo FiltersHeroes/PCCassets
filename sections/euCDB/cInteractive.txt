@@ -1,1 +1,1 @@
-4kfilme.de,aeotec.com,airportwebcams.net,geschichte-wissen.de,mysize.ch##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][style="order: 0;"][data-order="0"][role="button"] span)
+4kfilme.de,aeotec.com,airportwebcams.net,geschichte-wissen.de,mysize.ch,taxando.de##+js(clickInteractive, div[consent-skip-blocker] dialog a[href="#"][role="button"][id] span)
