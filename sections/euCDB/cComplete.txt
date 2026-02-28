@@ -1,2 +1,2 @@
-wplatform.media,dailywrap.net,essanews.com,handimania.com##+js(clickComplete, button, 300, accept and go to the website)
+dailywrap.net,essanews.com,handimania.com,wplatform.media##+js(clickComplete, button, 300, accept and go to the website)
 olympijskytym.cz##+js(clickComplete, #cc--main button.c-bn.c_link, cc_cookie)
