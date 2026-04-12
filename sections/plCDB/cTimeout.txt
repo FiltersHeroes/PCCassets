@@ -1,3 +1,4 @@
+patronite.pl##+js(clickTimeout, button[@data-button-submit], 200, Włącz wszystko i przejdź do serwisu)
 /^https?:\/\/consent\.yahoo\.com\/[a-z0-9]{2}\/collectConsent/##+js(clickTimeout, .btn[name="agree"])
 aszdziennik.pl,dadhero.pl,innpoland.pl,klubzwierzaki.pl,mamadu.pl,natemat.pl,topnewsy.pl##+js(clickTimeout, .qc-cmp2-header-links > button[mode="link"]:first-child, euconsent-v2)
 aszdziennik.pl,dadhero.pl,innpoland.pl,klubzwierzaki.pl,mamadu.pl,natemat.pl,topnewsy.pl##+js(clickTimeout, button[mode="secondary"], euconsent-v2)
